@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Reporting">
+    <parameter name="selenium.url" value="https://testyou.in"/>
+    <parameter name="selenium.browser" value="chrome"/>
+    <test name="Test">
+        <classes>
+            <class name="tests.LoginPageTest"/>
+        </classes>
+    </test>
+</suite>
